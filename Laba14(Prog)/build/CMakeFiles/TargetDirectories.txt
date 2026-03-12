@@ -1,0 +1,4 @@
+C:/Users/yurik/Desktop/Laba13(Prog)/build/CMakeFiles/car_lib.dir
+C:/Users/yurik/Desktop/Laba13(Prog)/build/CMakeFiles/car_app.dir
+C:/Users/yurik/Desktop/Laba13(Prog)/build/CMakeFiles/edit_cache.dir
+C:/Users/yurik/Desktop/Laba13(Prog)/build/CMakeFiles/rebuild_cache.dir

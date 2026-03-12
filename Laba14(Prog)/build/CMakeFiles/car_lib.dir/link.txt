@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\car_lib.dir/objects.a
+C:\PROGRA~1\gcc\bin\ar.exe qc CMakeFiles\car_lib.dir/objects.a @CMakeFiles\car_lib.dir\objects1.rsp
+C:\PROGRA~1\gcc\bin\gcc.exe -shared -o libcar_lib.dll -Wl,--out-implib,libcar_lib.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\car_lib.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\car_lib.dir\linkLibs.rsp

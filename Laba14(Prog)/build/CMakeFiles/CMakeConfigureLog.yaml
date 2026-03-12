@@ -1,0 +1,1660 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Python314/Scripts/"
+      - "C:/Program Files/gcc/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/yurik/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/cc.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/cc.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/cc"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/cl.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/cl.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/cl"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/bcc.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/bcc.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/bcc"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/xlc.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/xlc.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/xlc"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/icx.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/icx.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/icx"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/clang.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/clang.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/clang"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cl.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cl.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cl"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/bcc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/bcc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/bcc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/xlc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/xlc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/xlc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/icx.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/icx.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/icx"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang"
+      - "C:/Windows/System32/cc.com"
+      - "C:/Windows/System32/cc.exe"
+      - "C:/Windows/System32/cc"
+      - "C:/Windows/System32/gcc.com"
+      - "C:/Windows/System32/gcc.exe"
+      - "C:/Windows/System32/gcc"
+      - "C:/Windows/System32/cl.com"
+      - "C:/Windows/System32/cl.exe"
+      - "C:/Windows/System32/cl"
+      - "C:/Windows/System32/bcc.com"
+      - "C:/Windows/System32/bcc.exe"
+      - "C:/Windows/System32/bcc"
+      - "C:/Windows/System32/xlc.com"
+      - "C:/Windows/System32/xlc.exe"
+      - "C:/Windows/System32/xlc"
+      - "C:/Windows/System32/icx.com"
+      - "C:/Windows/System32/icx.exe"
+      - "C:/Windows/System32/icx"
+      - "C:/Windows/System32/clang.com"
+      - "C:/Windows/System32/clang.exe"
+      - "C:/Windows/System32/clang"
+      - "C:/Windows/cc.com"
+      - "C:/Windows/cc.exe"
+      - "C:/Windows/cc"
+      - "C:/Windows/gcc.com"
+      - "C:/Windows/gcc.exe"
+      - "C:/Windows/gcc"
+      - "C:/Windows/cl.com"
+      - "C:/Windows/cl.exe"
+      - "C:/Windows/cl"
+      - "C:/Windows/bcc.com"
+      - "C:/Windows/bcc.exe"
+      - "C:/Windows/bcc"
+      - "C:/Windows/xlc.com"
+      - "C:/Windows/xlc.exe"
+      - "C:/Windows/xlc"
+      - "C:/Windows/icx.com"
+      - "C:/Windows/icx.exe"
+      - "C:/Windows/icx"
+      - "C:/Windows/clang.com"
+      - "C:/Windows/clang.exe"
+      - "C:/Windows/clang"
+      - "C:/Windows/System32/wbem/cc.com"
+      - "C:/Windows/System32/wbem/cc.exe"
+      - "C:/Windows/System32/wbem/cc"
+      - "C:/Windows/System32/wbem/gcc.com"
+      - "C:/Windows/System32/wbem/gcc.exe"
+      - "C:/Windows/System32/wbem/gcc"
+      - "C:/Windows/System32/wbem/cl.com"
+      - "C:/Windows/System32/wbem/cl.exe"
+      - "C:/Windows/System32/wbem/cl"
+      - "C:/Windows/System32/wbem/bcc.com"
+      - "C:/Windows/System32/wbem/bcc.exe"
+      - "C:/Windows/System32/wbem/bcc"
+      - "C:/Windows/System32/wbem/xlc.com"
+      - "C:/Windows/System32/wbem/xlc.exe"
+      - "C:/Windows/System32/wbem/xlc"
+      - "C:/Windows/System32/wbem/icx.com"
+      - "C:/Windows/System32/wbem/icx.exe"
+      - "C:/Windows/System32/wbem/icx"
+      - "C:/Windows/System32/wbem/clang.com"
+      - "C:/Windows/System32/wbem/clang.exe"
+      - "C:/Windows/System32/wbem/clang"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang"
+      - "C:/Windows/System32/OpenSSH/cc.com"
+      - "C:/Windows/System32/OpenSSH/cc.exe"
+      - "C:/Windows/System32/OpenSSH/cc"
+      - "C:/Windows/System32/OpenSSH/gcc.com"
+      - "C:/Windows/System32/OpenSSH/gcc.exe"
+      - "C:/Windows/System32/OpenSSH/gcc"
+      - "C:/Windows/System32/OpenSSH/cl.com"
+      - "C:/Windows/System32/OpenSSH/cl.exe"
+      - "C:/Windows/System32/OpenSSH/cl"
+      - "C:/Windows/System32/OpenSSH/bcc.com"
+      - "C:/Windows/System32/OpenSSH/bcc.exe"
+      - "C:/Windows/System32/OpenSSH/bcc"
+      - "C:/Windows/System32/OpenSSH/xlc.com"
+      - "C:/Windows/System32/OpenSSH/xlc.exe"
+      - "C:/Windows/System32/OpenSSH/xlc"
+      - "C:/Windows/System32/OpenSSH/icx.com"
+      - "C:/Windows/System32/OpenSSH/icx.exe"
+      - "C:/Windows/System32/OpenSSH/icx"
+      - "C:/Windows/System32/OpenSSH/clang.com"
+      - "C:/Windows/System32/OpenSSH/clang.exe"
+      - "C:/Windows/System32/OpenSSH/clang"
+      - "C:/Program Files/dotnet/cc.com"
+      - "C:/Program Files/dotnet/cc.exe"
+      - "C:/Program Files/dotnet/cc"
+      - "C:/Program Files/dotnet/gcc.com"
+      - "C:/Program Files/dotnet/gcc.exe"
+      - "C:/Program Files/dotnet/gcc"
+      - "C:/Program Files/dotnet/cl.com"
+      - "C:/Program Files/dotnet/cl.exe"
+      - "C:/Program Files/dotnet/cl"
+      - "C:/Program Files/dotnet/bcc.com"
+      - "C:/Program Files/dotnet/bcc.exe"
+      - "C:/Program Files/dotnet/bcc"
+      - "C:/Program Files/dotnet/xlc.com"
+      - "C:/Program Files/dotnet/xlc.exe"
+      - "C:/Program Files/dotnet/xlc"
+      - "C:/Program Files/dotnet/icx.com"
+      - "C:/Program Files/dotnet/icx.exe"
+      - "C:/Program Files/dotnet/icx"
+      - "C:/Program Files/dotnet/clang.com"
+      - "C:/Program Files/dotnet/clang.exe"
+      - "C:/Program Files/dotnet/clang"
+      - "C:/Program Files/nodejs/cc.com"
+      - "C:/Program Files/nodejs/cc.exe"
+      - "C:/Program Files/nodejs/cc"
+      - "C:/Program Files/nodejs/gcc.com"
+      - "C:/Program Files/nodejs/gcc.exe"
+      - "C:/Program Files/nodejs/gcc"
+      - "C:/Program Files/nodejs/cl.com"
+      - "C:/Program Files/nodejs/cl.exe"
+      - "C:/Program Files/nodejs/cl"
+      - "C:/Program Files/nodejs/bcc.com"
+      - "C:/Program Files/nodejs/bcc.exe"
+      - "C:/Program Files/nodejs/bcc"
+      - "C:/Program Files/nodejs/xlc.com"
+      - "C:/Program Files/nodejs/xlc.exe"
+      - "C:/Program Files/nodejs/xlc"
+      - "C:/Program Files/nodejs/icx.com"
+      - "C:/Program Files/nodejs/icx.exe"
+      - "C:/Program Files/nodejs/icx"
+      - "C:/Program Files/nodejs/clang.com"
+      - "C:/Program Files/nodejs/clang.exe"
+      - "C:/Program Files/nodejs/clang"
+      - "C:/Program Files/Python314/Scripts/cc.com"
+      - "C:/Program Files/Python314/Scripts/cc.exe"
+      - "C:/Program Files/Python314/Scripts/cc"
+      - "C:/Program Files/Python314/Scripts/gcc.com"
+      - "C:/Program Files/Python314/Scripts/gcc.exe"
+      - "C:/Program Files/Python314/Scripts/gcc"
+      - "C:/Program Files/Python314/Scripts/cl.com"
+      - "C:/Program Files/Python314/Scripts/cl.exe"
+      - "C:/Program Files/Python314/Scripts/cl"
+      - "C:/Program Files/Python314/Scripts/bcc.com"
+      - "C:/Program Files/Python314/Scripts/bcc.exe"
+      - "C:/Program Files/Python314/Scripts/bcc"
+      - "C:/Program Files/Python314/Scripts/xlc.com"
+      - "C:/Program Files/Python314/Scripts/xlc.exe"
+      - "C:/Program Files/Python314/Scripts/xlc"
+      - "C:/Program Files/Python314/Scripts/icx.com"
+      - "C:/Program Files/Python314/Scripts/icx.exe"
+      - "C:/Program Files/Python314/Scripts/icx"
+      - "C:/Program Files/Python314/Scripts/clang.com"
+      - "C:/Program Files/Python314/Scripts/clang.exe"
+      - "C:/Program Files/Python314/Scripts/clang"
+      - "C:/Program Files/gcc/bin/cc.com"
+      - "C:/Program Files/gcc/bin/cc.exe"
+      - "C:/Program Files/gcc/bin/cc"
+      - "C:/Program Files/gcc/bin/gcc.com"
+    found: "C:/Program Files/gcc/bin/gcc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Python314\\Scripts"
+        - "C:\\Program Files\\gcc\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\yurik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\yurik\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Python314\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Python314\\Scripts"
+        - "C:\\Program Files\\gcc\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\yurik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\yurik\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Python314\\Scripts"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/gcc/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/yurik/Desktop/Laba13(Prog)/build/CMakeFiles/4.3.0-rc3/CompilerIdC/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "C:/Program Files/gcc/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Python314/Scripts/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/yurik/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/gcc/bin/ar.com"
+    found: "C:/Program Files/gcc/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Python314\\Scripts"
+        - "C:\\Program Files\\gcc\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\yurik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\yurik\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Python314\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "C:/Program Files/gcc/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Python314/Scripts/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/yurik/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/gcc/bin/ranlib.com"
+    found: "C:/Program Files/gcc/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Python314\\Scripts"
+        - "C:\\Program Files\\gcc\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\yurik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\yurik\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Python314\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "C:/Program Files/gcc/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Python314/Scripts/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/yurik/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/gcc/bin/strip.com"
+    found: "C:/Program Files/gcc/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Python314\\Scripts"
+        - "C:\\Program Files\\gcc\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\yurik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\yurik\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Python314\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "C:/Program Files/gcc/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Python314/Scripts/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/yurik/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/gcc/bin/ld.com"
+    found: "C:/Program Files/gcc/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Python314\\Scripts"
+        - "C:\\Program Files\\gcc\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\yurik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\yurik\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Python314\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "C:/Program Files/gcc/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Python314/Scripts/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/yurik/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/gcc/bin/nm.com"
+    found: "C:/Program Files/gcc/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Python314\\Scripts"
+        - "C:\\Program Files\\gcc\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\yurik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\yurik\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Python314\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "C:/Program Files/gcc/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Python314/Scripts/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/yurik/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/gcc/bin/objdump.com"
+    found: "C:/Program Files/gcc/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Python314\\Scripts"
+        - "C:\\Program Files\\gcc\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\yurik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\yurik\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Python314\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "C:/Program Files/gcc/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Python314/Scripts/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/yurik/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/gcc/bin/objcopy.com"
+    found: "C:/Program Files/gcc/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Python314\\Scripts"
+        - "C:\\Program Files\\gcc\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\yurik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\yurik\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Python314\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "C:/Program Files/gcc/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Python314/Scripts/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/yurik/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/gcc/bin/readelf.com"
+    found: "C:/Program Files/gcc/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Python314\\Scripts"
+        - "C:\\Program Files\\gcc\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\yurik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\yurik\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Python314\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "C:/Program Files/gcc/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Python314/Scripts/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/yurik/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/gcc/bin/dlltool.com"
+    found: "C:/Program Files/gcc/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Python314\\Scripts"
+        - "C:\\Program Files\\gcc\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\yurik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\yurik\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Python314\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "C:/Program Files/gcc/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Python314/Scripts/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/yurik/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/gcc/bin/addr2line.com"
+    found: "C:/Program Files/gcc/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Python314\\Scripts"
+        - "C:\\Program Files\\gcc\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\yurik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\yurik\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Python314\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/Program Files/gcc/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Python314/Scripts/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/yurik/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/gcc/bin/tapi.com"
+      - "C:/Program Files/gcc/bin/tapi.exe"
+      - "C:/Program Files/gcc/bin/tapi"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/tapi.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/tapi.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/tapi"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/tapi.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/tapi.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files/dotnet/tapi.com"
+      - "C:/Program Files/dotnet/tapi.exe"
+      - "C:/Program Files/dotnet/tapi"
+      - "C:/Program Files/nodejs/tapi.com"
+      - "C:/Program Files/nodejs/tapi.exe"
+      - "C:/Program Files/nodejs/tapi"
+      - "C:/Program Files/Python314/Scripts/tapi.com"
+      - "C:/Program Files/Python314/Scripts/tapi.exe"
+      - "C:/Program Files/Python314/Scripts/tapi"
+      - "C:/Program Files/CMake/bin/tapi.com"
+      - "C:/Program Files/CMake/bin/tapi.exe"
+      - "C:/Program Files/CMake/bin/tapi"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/yurik/AppData/Roaming/npm/tapi.com"
+      - "C:/Users/yurik/AppData/Roaming/npm/tapi.exe"
+      - "C:/Users/yurik/AppData/Roaming/npm/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Python314\\Scripts"
+        - "C:\\Program Files\\gcc\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\yurik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\yurik\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Python314\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "C:/Program Files/gcc/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Python314/Scripts/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/yurik/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/gcc/bin/gcc-ar-15.2.com"
+      - "C:/Program Files/gcc/bin/gcc-ar-15.2.exe"
+      - "C:/Program Files/gcc/bin/gcc-ar-15.2"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ar-15.2.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ar-15.2.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ar-15.2"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-15.2.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-15.2.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-15.2"
+      - "C:/Windows/System32/gcc-ar-15.2.com"
+      - "C:/Windows/System32/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/gcc-ar-15.2"
+      - "C:/Windows/gcc-ar-15.2.com"
+      - "C:/Windows/gcc-ar-15.2.exe"
+      - "C:/Windows/gcc-ar-15.2"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2"
+      - "C:/Program Files/dotnet/gcc-ar-15.2.com"
+      - "C:/Program Files/dotnet/gcc-ar-15.2.exe"
+      - "C:/Program Files/dotnet/gcc-ar-15.2"
+      - "C:/Program Files/nodejs/gcc-ar-15.2.com"
+      - "C:/Program Files/nodejs/gcc-ar-15.2.exe"
+      - "C:/Program Files/nodejs/gcc-ar-15.2"
+      - "C:/Program Files/Python314/Scripts/gcc-ar-15.2.com"
+      - "C:/Program Files/Python314/Scripts/gcc-ar-15.2.exe"
+      - "C:/Program Files/Python314/Scripts/gcc-ar-15.2"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.2.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.2.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.2"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.com"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.exe"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2"
+      - "C:/Users/yurik/AppData/Roaming/npm/gcc-ar-15.2.com"
+      - "C:/Users/yurik/AppData/Roaming/npm/gcc-ar-15.2.exe"
+      - "C:/Users/yurik/AppData/Roaming/npm/gcc-ar-15.2"
+      - "C:/Program Files/gcc/bin/gcc-ar-15.com"
+      - "C:/Program Files/gcc/bin/gcc-ar-15.exe"
+      - "C:/Program Files/gcc/bin/gcc-ar-15"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ar-15.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ar-15.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ar-15"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-15.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-15.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-15"
+      - "C:/Windows/System32/gcc-ar-15.com"
+      - "C:/Windows/System32/gcc-ar-15.exe"
+      - "C:/Windows/System32/gcc-ar-15"
+      - "C:/Windows/gcc-ar-15.com"
+      - "C:/Windows/gcc-ar-15.exe"
+      - "C:/Windows/gcc-ar-15"
+      - "C:/Windows/System32/wbem/gcc-ar-15.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15"
+      - "C:/Program Files/dotnet/gcc-ar-15.com"
+      - "C:/Program Files/dotnet/gcc-ar-15.exe"
+      - "C:/Program Files/dotnet/gcc-ar-15"
+      - "C:/Program Files/nodejs/gcc-ar-15.com"
+      - "C:/Program Files/nodejs/gcc-ar-15.exe"
+      - "C:/Program Files/nodejs/gcc-ar-15"
+      - "C:/Program Files/Python314/Scripts/gcc-ar-15.com"
+      - "C:/Program Files/Python314/Scripts/gcc-ar-15.exe"
+      - "C:/Program Files/Python314/Scripts/gcc-ar-15"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-15"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.com"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.exe"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/gcc-ar-15"
+      - "C:/Users/yurik/AppData/Roaming/npm/gcc-ar-15.com"
+      - "C:/Users/yurik/AppData/Roaming/npm/gcc-ar-15.exe"
+      - "C:/Users/yurik/AppData/Roaming/npm/gcc-ar-15"
+      - "C:/Program Files/gcc/bin/gcc-ar15.com"
+      - "C:/Program Files/gcc/bin/gcc-ar15.exe"
+      - "C:/Program Files/gcc/bin/gcc-ar15"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ar15.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ar15.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ar15"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar15.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar15.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar15"
+      - "C:/Windows/System32/gcc-ar15.com"
+      - "C:/Windows/System32/gcc-ar15.exe"
+      - "C:/Windows/System32/gcc-ar15"
+      - "C:/Windows/gcc-ar15.com"
+      - "C:/Windows/gcc-ar15.exe"
+      - "C:/Windows/gcc-ar15"
+      - "C:/Windows/System32/wbem/gcc-ar15.com"
+      - "C:/Windows/System32/wbem/gcc-ar15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15"
+      - "C:/Program Files/dotnet/gcc-ar15.com"
+      - "C:/Program Files/dotnet/gcc-ar15.exe"
+      - "C:/Program Files/dotnet/gcc-ar15"
+      - "C:/Program Files/nodejs/gcc-ar15.com"
+      - "C:/Program Files/nodejs/gcc-ar15.exe"
+      - "C:/Program Files/nodejs/gcc-ar15"
+      - "C:/Program Files/Python314/Scripts/gcc-ar15.com"
+      - "C:/Program Files/Python314/Scripts/gcc-ar15.exe"
+      - "C:/Program Files/Python314/Scripts/gcc-ar15"
+      - "C:/Program Files/CMake/bin/gcc-ar15.com"
+      - "C:/Program Files/CMake/bin/gcc-ar15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar15"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/gcc-ar15.com"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/gcc-ar15.exe"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/gcc-ar15"
+      - "C:/Users/yurik/AppData/Roaming/npm/gcc-ar15.com"
+      - "C:/Users/yurik/AppData/Roaming/npm/gcc-ar15.exe"
+      - "C:/Users/yurik/AppData/Roaming/npm/gcc-ar15"
+      - "C:/Program Files/gcc/bin/gcc-ar.com"
+    found: "C:/Program Files/gcc/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Python314\\Scripts"
+        - "C:\\Program Files\\gcc\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\yurik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\yurik\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Python314\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "C:/Program Files/gcc/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Python314/Scripts/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/yurik/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/gcc/bin/gcc-ranlib-15.2.com"
+      - "C:/Program Files/gcc/bin/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/gcc/bin/gcc-ranlib-15.2"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ranlib-15.2.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ranlib-15.2.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ranlib-15.2"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-15.2.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-15.2.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-15.2"
+      - "C:/Windows/System32/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/gcc-ranlib-15.2"
+      - "C:/Windows/gcc-ranlib-15.2.com"
+      - "C:/Windows/gcc-ranlib-15.2.exe"
+      - "C:/Windows/gcc-ranlib-15.2"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.2.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.2"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.2.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.2"
+      - "C:/Program Files/Python314/Scripts/gcc-ranlib-15.2.com"
+      - "C:/Program Files/Python314/Scripts/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/Python314/Scripts/gcc-ranlib-15.2"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.2.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.2"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.com"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.exe"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2"
+      - "C:/Users/yurik/AppData/Roaming/npm/gcc-ranlib-15.2.com"
+      - "C:/Users/yurik/AppData/Roaming/npm/gcc-ranlib-15.2.exe"
+      - "C:/Users/yurik/AppData/Roaming/npm/gcc-ranlib-15.2"
+      - "C:/Program Files/gcc/bin/gcc-ranlib-15.com"
+      - "C:/Program Files/gcc/bin/gcc-ranlib-15.exe"
+      - "C:/Program Files/gcc/bin/gcc-ranlib-15"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ranlib-15.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ranlib-15.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ranlib-15"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-15.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-15.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-15"
+      - "C:/Windows/System32/gcc-ranlib-15.com"
+      - "C:/Windows/System32/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/gcc-ranlib-15"
+      - "C:/Windows/gcc-ranlib-15.com"
+      - "C:/Windows/gcc-ranlib-15.exe"
+      - "C:/Windows/gcc-ranlib-15"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-15"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-15"
+      - "C:/Program Files/Python314/Scripts/gcc-ranlib-15.com"
+      - "C:/Program Files/Python314/Scripts/gcc-ranlib-15.exe"
+      - "C:/Program Files/Python314/Scripts/gcc-ranlib-15"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.com"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.exe"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15"
+      - "C:/Users/yurik/AppData/Roaming/npm/gcc-ranlib-15.com"
+      - "C:/Users/yurik/AppData/Roaming/npm/gcc-ranlib-15.exe"
+      - "C:/Users/yurik/AppData/Roaming/npm/gcc-ranlib-15"
+      - "C:/Program Files/gcc/bin/gcc-ranlib15.com"
+      - "C:/Program Files/gcc/bin/gcc-ranlib15.exe"
+      - "C:/Program Files/gcc/bin/gcc-ranlib15"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ranlib15.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ranlib15.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ranlib15"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib15.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib15.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib15"
+      - "C:/Windows/System32/gcc-ranlib15.com"
+      - "C:/Windows/System32/gcc-ranlib15.exe"
+      - "C:/Windows/System32/gcc-ranlib15"
+      - "C:/Windows/gcc-ranlib15.com"
+      - "C:/Windows/gcc-ranlib15.exe"
+      - "C:/Windows/gcc-ranlib15"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15"
+      - "C:/Program Files/dotnet/gcc-ranlib15.com"
+      - "C:/Program Files/dotnet/gcc-ranlib15.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib15"
+      - "C:/Program Files/nodejs/gcc-ranlib15.com"
+      - "C:/Program Files/nodejs/gcc-ranlib15.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib15"
+      - "C:/Program Files/Python314/Scripts/gcc-ranlib15.com"
+      - "C:/Program Files/Python314/Scripts/gcc-ranlib15.exe"
+      - "C:/Program Files/Python314/Scripts/gcc-ranlib15"
+      - "C:/Program Files/CMake/bin/gcc-ranlib15.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib15"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.com"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.exe"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15"
+      - "C:/Users/yurik/AppData/Roaming/npm/gcc-ranlib15.com"
+      - "C:/Users/yurik/AppData/Roaming/npm/gcc-ranlib15.exe"
+      - "C:/Users/yurik/AppData/Roaming/npm/gcc-ranlib15"
+      - "C:/Program Files/gcc/bin/gcc-ranlib.com"
+    found: "C:/Program Files/gcc/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Python314\\Scripts"
+        - "C:\\Program Files\\gcc\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\yurik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\yurik\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Python314\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-GNU-C.cmake:2 (__windows_compiler_gnu)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Python314/Scripts/"
+      - "C:/Program Files/gcc/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/yurik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/yurik/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/CarManager/bin/"
+      - "C:/Program Files (x86)/CarManager/sbin/"
+      - "C:/Program Files (x86)/CarManager/"
+    searched_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/windres.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/windres.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/windres"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/windres.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/windres.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/windres"
+      - "C:/Windows/System32/windres.com"
+      - "C:/Windows/System32/windres.exe"
+      - "C:/Windows/System32/windres"
+      - "C:/Windows/windres.com"
+      - "C:/Windows/windres.exe"
+      - "C:/Windows/windres"
+      - "C:/Windows/System32/wbem/windres.com"
+      - "C:/Windows/System32/wbem/windres.exe"
+      - "C:/Windows/System32/wbem/windres"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres"
+      - "C:/Windows/System32/OpenSSH/windres.com"
+      - "C:/Windows/System32/OpenSSH/windres.exe"
+      - "C:/Windows/System32/OpenSSH/windres"
+      - "C:/Program Files/dotnet/windres.com"
+      - "C:/Program Files/dotnet/windres.exe"
+      - "C:/Program Files/dotnet/windres"
+      - "C:/Program Files/nodejs/windres.com"
+      - "C:/Program Files/nodejs/windres.exe"
+      - "C:/Program Files/nodejs/windres"
+      - "C:/Program Files/Python314/Scripts/windres.com"
+      - "C:/Program Files/Python314/Scripts/windres.exe"
+      - "C:/Program Files/Python314/Scripts/windres"
+      - "C:/Program Files/gcc/bin/windres.com"
+    found: "C:/Program Files/gcc/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Python314\\Scripts"
+        - "C:\\Program Files\\gcc\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\yurik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\yurik\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Python314\\Scripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CarManager"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/CarManager"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/yurik/Desktop/Laba13(Prog)/build/CMakeFiles/CMakeScratch/TryCompile-wzei2n"
+      binary: "C:/Users/yurik/Desktop/Laba13(Prog)/build/CMakeFiles/CMakeScratch/TryCompile-wzei2n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/yurik/Desktop/Laba13(Prog)/build/CMakeFiles/CMakeScratch/TryCompile-wzei2n'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 "C:/Program Files/gcc/bin/make.exe" -f Makefile cmTC_ae93d/fast
+        C:/Program Files/gcc/bin/make.exe  -f CMakeFiles\\cmTC_ae93d.dir\\build.make CMakeFiles/cmTC_ae93d.dir/build
+        make[1]: Entering directory 'C:/Users/yurik/Desktop/Laba13(Prog)/build/CMakeFiles/CMakeScratch/TryCompile-wzei2n'
+        Building C object CMakeFiles/cmTC_ae93d.dir/CMakeCCompilerABI.c.obj
+        C:\\PROGRA~1\\gcc\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_ae93d.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+        Built by Equation Solution <http://www.Equation.com>.
+        Using built-in specs.
+        COLLECT_GCC=C:\\PROGRA~1\\gcc\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-unknown-linux-gnu --target=x86_64-w64-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/15.2.0 --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0 --with-gcc --with-gnu-ld --with-gnu-as --with-ld64=no --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpc --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/cloog --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --enable-targets=i686-w64-mingw32,x86_64-w64-mingw32 --enable-languages=c,c++,fortran --enable-threads=win32 --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes --enable-libquadmath --enable-libquadmath-support --enable-libgomp --disable-lto --disable-checking --disable-nls --disable-tls --disable-win32-registry
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ae93d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_ae93d.dir\\'
+         C:/Program Files/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_ae93d.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\yurik\\AppData\\Local\\Temp\\ccrxWf7o.s
+        GNU C23 (GCC) version 15.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 15.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Program Files/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"
+        ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/15.2.0/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include"
+        ignoring duplicate directory "C:/Program Files/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"
+        ignoring duplicate directory "C:/Program Files/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include
+         C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
+         C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: e86afd5e3625c96615415215091dfa08
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ae93d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_ae93d.dir\\'
+         C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_ae93d.dir\\CMakeCCompilerABI.c.obj C:\\Users\\yurik\\AppData\\Local\\Temp\\ccrxWf7o.s
+        GNU assembler version 2.44 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.44
+        COMPILER_PATH=C:/Program Files/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/Program Files/gcc/bin/../libexec/gcc/;C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/Program Files/gcc/bin/../lib/gcc/;C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ae93d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_ae93d.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_ae93d.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ae93d.dir\\link.txt --verbose=1
+        Built by Equation Solution <http://www.Equation.com>.
+        Using built-in specs.
+        COLLECT_GCC=C:\\PROGRA~1\\gcc\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=C:/Program\\ Files/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-unknown-linux-gnu --target=x86_64-w64-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/15.2.0 --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0 --with-gcc --with-gnu-ld --with-gnu-as --with-ld64=no --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpc --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/cloog --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --enable-targets=i686-w64-mingw32,x86_64-w64-mingw32 --enable-languages=c,c++,fortran --enable-threads=win32 --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes --enable-libquadmath --enable-libquadmath-support --enable-libgomp --disable-lto --disable-checking --disable-nls --disable-tls --disable-win32-registry
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (GCC) 
+        COMPILER_PATH=C:/Program Files/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/Program Files/gcc/bin/../libexec/gcc/;C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/Program Files/gcc/bin/../lib/gcc/;C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ae93d.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ae93d.'
+         C:/Program Files/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0 -m i386pep -Bdynamic -o cmTC_ae93d.exe C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Program Files/gcc/bin/../lib/gcc -LC:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_ae93d.dir/objects.a --no-whole-archive --out-implib libcmTC_ae93d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        collect2 version 15.2.0
+        C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0 -m i386pep -Bdynamic -o cmTC_ae93d.exe C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Program Files/gcc/bin/../lib/gcc -LC:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_ae93d.dir/objects.a --no-whole-archive --out-implib libcmTC_ae93d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.44
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ae93d.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ae93d.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_ae93d.dir/objects.a
+        C:\\PROGRA~1\\gcc\\bin\\ar.exe qc CMakeFiles\\cmTC_ae93d.dir/objects.a @CMakeFiles\\cmTC_ae93d.dir\\objects1.rsp
+        C:\\PROGRA~1\\gcc\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_ae93d.dir/objects.a -Wl,--no-whole-archive -o cmTC_ae93d.exe -Wl,--out-implib,libcmTC_ae93d.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        make[1]: Leaving directory 'C:/Users/yurik/Desktop/Laba13(Prog)/build/CMakeFiles/CMakeScratch/TryCompile-wzei2n'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+          add: [C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+          add: [C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include] ==> [C:/Program Files/gcc/lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        collapse include dir [C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed] ==> [C:/Program Files/gcc/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        collapse include dir [C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Program Files/gcc/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/Program Files/gcc/lib/gcc/x86_64-w64-mingw32/15.2.0/include;C:/Program Files/gcc/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed;C:/Program Files/gcc/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/yurik/Desktop/Laba13(Prog)/build/CMakeFiles/CMakeScratch/TryCompile-wzei2n']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 "C:/Program Files/gcc/bin/make.exe" -f Makefile cmTC_ae93d/fast]
+        ignore line: [C:/Program Files/gcc/bin/make.exe  -f CMakeFiles\\cmTC_ae93d.dir\\build.make CMakeFiles/cmTC_ae93d.dir/build]
+        ignore line: [make[1]: Entering directory 'C:/Users/yurik/Desktop/Laba13(Prog)/build/CMakeFiles/CMakeScratch/TryCompile-wzei2n']
+        ignore line: [Building C object CMakeFiles/cmTC_ae93d.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\PROGRA~1\\gcc\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_ae93d.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Built by Equation Solution <http://www.Equation.com>.]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\PROGRA~1\\gcc\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-unknown-linux-gnu --target=x86_64-w64-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/15.2.0 --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0 --with-gcc --with-gnu-ld --with-gnu-as --with-ld64=no --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpc --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/cloog --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --enable-targets=i686-w64-mingw32,x86_64-w64-mingw32 --enable-languages=c,c++,fortran --enable-threads=win32 --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes --enable-libquadmath --enable-libquadmath-support --enable-libgomp --disable-lto --disable-checking --disable-nls --disable-tls --disable-win32-registry]
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ae93d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_ae93d.dir\\']
+        ignore line: [ C:/Program Files/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_ae93d.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\yurik\\AppData\\Local\\Temp\\ccrxWf7o.s]
+        ignore line: [GNU C23 (GCC) version 15.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Program Files/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/15.2.0/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/Program Files/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Program Files/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        ignore line: [ C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        ignore line: [ C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: e86afd5e3625c96615415215091dfa08]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ae93d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_ae93d.dir\\']
+        ignore line: [ C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_ae93d.dir\\CMakeCCompilerABI.c.obj C:\\Users\\yurik\\AppData\\Local\\Temp\\ccrxWf7o.s]
+        ignore line: [GNU assembler version 2.44 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.44]
+        ignore line: [COMPILER_PATH=C:/Program Files/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/Program Files/gcc/bin/../libexec/gcc/]
+        ignore line: [C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/Program Files/gcc/bin/../lib/gcc/]
+        ignore line: [C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ae93d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_ae93d.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_ae93d.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ae93d.dir\\link.txt --verbose=1]
+        ignore line: [Built by Equation Solution <http://www.Equation.com>.]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\PROGRA~1\\gcc\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Program\\ Files/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-unknown-linux-gnu --target=x86_64-w64-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/15.2.0 --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0 --with-gcc --with-gnu-ld --with-gnu-as --with-ld64=no --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpc --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/cloog --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --enable-targets=i686-w64-mingw32,x86_64-w64-mingw32 --enable-languages=c,c++,fortran --enable-threads=win32 --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes --enable-libquadmath --enable-libquadmath-support --enable-libgomp --disable-lto --disable-checking --disable-nls --disable-tls --disable-win32-registry]
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Program Files/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/Program Files/gcc/bin/../libexec/gcc/]
+        ignore line: [C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/Program Files/gcc/bin/../lib/gcc/]
+        ignore line: [C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ae93d.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ae93d.']
+        ignore line: [ C:/Program Files/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0 -m i386pep -Bdynamic -o cmTC_ae93d.exe C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Program Files/gcc/bin/../lib/gcc -LC:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_ae93d.dir/objects.a --no-whole-archive --out-implib libcmTC_ae93d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0 -m i386pep -Bdynamic -o cmTC_ae93d.exe C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Program Files/gcc/bin/../lib/gcc -LC:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_ae93d.dir/objects.a --no-whole-archive --out-implib libcmTC_ae93d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Program Files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [GNU ld (GNU Binutils) 2.44]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ae93d.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ae93d.']
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_ae93d.dir/objects.a]
+        ignore line: [C:\\PROGRA~1\\gcc\\bin\\ar.exe qc CMakeFiles\\cmTC_ae93d.dir/objects.a @CMakeFiles\\cmTC_ae93d.dir\\objects1.rsp]
+        ignore line: [C:\\PROGRA~1\\gcc\\bin\\gcc.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_ae93d.dir/objects.a -Wl --no-whole-archive -o cmTC_ae93d.exe -Wl --out-implib libcmTC_ae93d.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [make[1]: Leaving directory 'C:/Users/yurik/Desktop/Laba13(Prog)/build/CMakeFiles/CMakeScratch/TryCompile-wzei2n']
+        ignore line: []
+        ignore line: []
+        linker tool for 'C': C:/Program Files/gcc/x86_64-w64-mingw32/bin/ld.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/gcc/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.44
+...
